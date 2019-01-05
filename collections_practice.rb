@@ -29,8 +29,6 @@ def kesha_maker(array)
   new_array
 end
 
-yield(array[element]){ puts "hi"}
-end
 
 
 
