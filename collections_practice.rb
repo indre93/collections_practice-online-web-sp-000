@@ -19,33 +19,6 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  element = 0
-  new_array = []
-  array.each do |element|
-    element.gsub(" ", " s")
-  end
-end
-
-def find_a(array)
-  
-end
-
-def sum_array(array)
-  
-end
-
-def add_s(array)
-  word = 0
-  array.each do |word|
-    if word != feet 
-      feet
-    else 
-      word,join("s")
-    end
-  word += 1  
-  end    
-end
 
 
 
