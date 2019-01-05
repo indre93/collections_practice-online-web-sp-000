@@ -30,6 +30,8 @@ def kesha_maker(array)
 end
 
 yield(array[element]){ puts "hi"}
+end
+
 
 
 
