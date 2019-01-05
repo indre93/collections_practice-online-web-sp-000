@@ -32,6 +32,7 @@ def find_a(array)
       new_array << word
     else
     end
+    word += 1
   end
   new_array
 end
