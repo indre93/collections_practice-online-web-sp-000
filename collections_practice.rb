@@ -25,7 +25,7 @@ end
 
 def find_a(array)
   word = 0
-  array.word += 1
+  array.keep_if { |word| /[aeiou]/ }
   end
 end
 
