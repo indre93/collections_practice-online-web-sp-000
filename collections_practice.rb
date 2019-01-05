@@ -29,7 +29,9 @@ def kesha_maker(array)
   new_array
 end
 
-yielding{puts hi}
+yielding do
+  puts hi
+end
 
 
 
