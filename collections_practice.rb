@@ -23,6 +23,11 @@ def kesha_maker(array)
   array.each_with_index {|element, index| element.gsub(2, "$")}
 end
 
+
+
+
+
+
 def find_a(array)
   array.keep_if { |word| word.start_with?("a") }
 end
