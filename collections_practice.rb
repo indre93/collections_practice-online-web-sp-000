@@ -36,6 +36,7 @@ def add_s(array)
     if element != "feet"
       element.insert(-1, "s")
     end
+    array[1] << "feet"
   end
 end
 
