@@ -33,10 +33,6 @@ end
 
 def add_s(array)
   array.each_with_index.collect{|element, index| element.insert(-1, "s") }
-  if array == "feet"
-    delete
-  end
-  array
 end
 
 
