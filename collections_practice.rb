@@ -23,9 +23,7 @@ def kesha_maker(array)
   element = 0
   new_array = []
   array.each do |element|
-    element.sub!{
-  
-  
+    element.gsub(" ", " s")
 end
 
 
