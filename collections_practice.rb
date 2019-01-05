@@ -25,12 +25,7 @@ end
 
 def find_a(array)
   word = 0
-  new_array = []
-  array.collect{|word| word.start_with?("a")}
-  if true
-    new_array.push(word)
-  else false
-    word.delete
+  array.
   end
 end
 
