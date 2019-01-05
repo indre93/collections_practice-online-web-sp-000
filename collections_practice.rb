@@ -19,7 +19,9 @@ def reverse_array(array)
   array.reverse
 end
 
-
+def sum_array(array)
+  
+end
 
 
 
