@@ -32,12 +32,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect do |element, index|
-    if element != "feet"
-      element.insert(-1, "s")
-    end
-    array[1] << "feet"
-  end
+  array.each_with_index.collect{|element, index| element.insert(-1, "s")}
 end
 
 
