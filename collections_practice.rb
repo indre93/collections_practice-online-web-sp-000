@@ -37,9 +37,14 @@ end
 
 def add_s(array)
   word = 0
-  new_array = []
   array.each do |word|
-    word.
+    if word != feet 
+      feet
+    else 
+      word,join("s")
+    end
+  word += 1  
+  end    
 end
 
 
