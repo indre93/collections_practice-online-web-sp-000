@@ -23,9 +23,6 @@ def kesha_maker(array)
   
 end
 
-
-
-
 def find_a(array)
   word = 0
   new_array = []
