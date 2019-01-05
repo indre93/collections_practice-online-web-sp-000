@@ -30,7 +30,7 @@ def find_a(array)
     new_array << word
   else
     word.delete
-    
+  end
 end
 
 
