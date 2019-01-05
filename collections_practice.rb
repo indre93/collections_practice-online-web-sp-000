@@ -25,7 +25,7 @@ end
 
 def find_a(array)
   word = 0
-  array.
+  array.word += 1
   end
 end
 
