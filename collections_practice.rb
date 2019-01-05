@@ -30,16 +30,3 @@ def kesha_maker(array)
 end
 
 
-
-
-def find_a(array)
-
-end
-
-def sum_array(array)
-
-end
-
-def add_s(array)
-
-end
