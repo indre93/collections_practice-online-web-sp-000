@@ -30,6 +30,7 @@ def find_a(array)
     word.start_with?("a")
     if true
       new_array << word
+    else
     end
   end
   new_array
