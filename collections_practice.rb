@@ -19,10 +19,21 @@ def reverse_array(array)
   array.reverse
 end
 
+def kesha_maker(array)
+  
+end
+
+def find_a(array)
+  
+end
+
 def sum_array(array)
   array.inject { |sum, n| sum + n }
 end
 
+def add_s(array)
+  
+end
 
 
 
