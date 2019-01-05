@@ -26,6 +26,7 @@ end
 def find_a(array)
   word = 0
   array.keep_if { |word| word.start_with?("a") }
+  word += 1
   end
 end
 
