@@ -36,6 +36,7 @@ def add_s(array)
   if array == "feet"
     delete
   end
+  array
 end
 
 
