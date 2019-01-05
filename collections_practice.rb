@@ -30,7 +30,7 @@ def find_a(array)
     word += 1
     word.start_with?("a")
     if true
-      new_array << word
+      new_array << word.to_s
     else
     end
   end
