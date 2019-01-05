@@ -35,6 +35,7 @@ def add_s(array)
   array.each_with_index.collect{|element, index| element.insert(-1, "s")}
   if element == feet
     element.delete
+  end
 end
 
 
