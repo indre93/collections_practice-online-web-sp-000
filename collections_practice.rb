@@ -31,6 +31,7 @@ def find_a(array)
   new_array = []
   array.each do |word|
     new_array << word.start_with?("a")
+  end
     word += 1
   end
   new_array
