@@ -36,22 +36,3 @@ def add_s(array)
   array.delete("feets")
   array.insert(1, "feet")
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
