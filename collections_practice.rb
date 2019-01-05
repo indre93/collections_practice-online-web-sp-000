@@ -25,7 +25,7 @@ end
 
 def find_a(array)
   word = 0
-  array.keep_if { |word| /[aeiou]/ }
+  array.keep_if { |word| word.start_with?("a") }
   end
 end
 
