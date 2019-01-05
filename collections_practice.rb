@@ -28,8 +28,8 @@ def find_a(array)
   new_array = []
   array.collect{|word| word.start_with?("a")}
   if true
-    new_array << word
-  else
+    new_array.push(word)
+  else false
     word.delete
   end
 end
