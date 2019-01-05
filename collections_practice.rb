@@ -27,11 +27,11 @@ def find_a(array)
   word = 0
   new_array = []
   array.each do |word|
-    word += 1
     word.start_with?("a")
     if true
-      new_array << word.to_s
+      new_array << word
     else
+      
     end
   end
   new_array
