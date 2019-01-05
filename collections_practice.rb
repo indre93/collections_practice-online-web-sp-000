@@ -22,12 +22,14 @@ end
 def kesha_maker(array)
   element = 0
   new_array = []
-  while counter < array.length
+  while element < array.length
     new_array << yield(array[element])
     element += 1
   end
   new_array
 end
+
+
 
 
 def find_a(array)
