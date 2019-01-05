@@ -28,13 +28,7 @@ def find_a(array)
   new_array = []
   array.each do |word|
     word.start_with?("a")
-    if true
-      new_array << word
-    else
-      
-    end
   end
-  new_array
 end
 
 
